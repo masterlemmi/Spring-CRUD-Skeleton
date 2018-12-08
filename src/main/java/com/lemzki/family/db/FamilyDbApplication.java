@@ -1,6 +1,9 @@
-package com.lemzki.tools.familydb;
+package com.lemzki.family.db;
 
 
+
+import com.lemzki.family.db.model.Car;
+import com.lemzki.family.db.repository.CarRepository;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

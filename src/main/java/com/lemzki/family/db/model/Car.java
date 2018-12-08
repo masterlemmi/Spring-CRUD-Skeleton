@@ -1,4 +1,4 @@
-package com.lemzki.tools.familydb;
+package com.lemzki.family.db.model;
 
 import lombok.*;
 

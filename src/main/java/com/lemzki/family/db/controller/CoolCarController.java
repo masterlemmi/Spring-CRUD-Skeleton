@@ -1,5 +1,8 @@
-package com.lemzki.tools.familydb;
+package com.lemzki.family.db.controller;
 
+
+import com.lemzki.family.db.model.Car;
+import com.lemzki.family.db.repository.CarRepository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,7 +10,7 @@ import java.util.Collection;
 import java.util.stream.Collectors;
 
 @RestController
-class CoolCarController {
+public class CoolCarController {
     private CarRepository repository;
 
     public CoolCarController(CarRepository repository) {
